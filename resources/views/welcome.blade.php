@@ -118,7 +118,7 @@
 
     </section><!--/.portfolio-->
 
-{{--    <section id="contact" class="contact">--}}
+    <section id="contact" class="contact">
 {{--        <div class="section-heading text-center">--}}
 {{--            <h2>contact me</h2>--}}
 {{--        </div>--}}
@@ -167,31 +167,31 @@
 {{--                            </div><!--/.contact-form-->--}}
 {{--                        </div><!--/.single-contact-box-->--}}
 {{--                    </div><!--/.col-->--}}
-{{--                    <div class="col-md-offset-1 col-md-5 col-sm-6">--}}
-{{--                        <div class="single-contact-box">--}}
-{{--                            <div class="contact-adress">--}}
-{{--                                <div class="contact-add-head">--}}
-{{--                                    <h3>Vedoor Barakat</h3>--}}
-{{--                                    <p>Fullstack Developer</p>--}}
-{{--                                </div>--}}
-{{--                                <div class="contact-add-info">--}}
-{{--                                    <div class="single-contact-add-info">--}}
-{{--                                        <h3>email</h3>--}}
-{{--                                        <p>vedoorbbs@gmail.com</p>--}}
-{{--                                    </div>--}}
-{{--                                    <div class="single-contact-add-info">--}}
-{{--                                        <h3>Located</h3>--}}
-{{--                                        <p>Scarborough, Toronto, ON, Canada</p>--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
-{{--                            </div><!--/.contact-adress-->--}}
+                    <div class="col-md-offset-1 col-md-5 col-sm-6">
+                        <div class="single-contact-box">
+                            <div class="contact-adress">
+                                <div class="contact-add-head">
+                                    <h3>Vedoor Barakat</h3>
+                                    <p>Fullstack Developer</p>
+                                </div>
+                                <div class="contact-add-info">
+                                    <div class="single-contact-add-info">
+                                        <h3>email</h3>
+                                        <p>vedoorbbs@gmail.com</p>
+                                    </div>
+                                    <div class="single-contact-add-info">
+                                        <h3>Located</h3>
+                                        <p>Scarborough, Toronto, ON, Canada</p>
+                                    </div>
+                                </div>
+                            </div><!--/.contact-adress-->
 
-{{--                        </div><!--/.single-contact-box-->--}}
-{{--                    </div><!--/.col-->--}}
+                        </div><!--/.single-contact-box-->
+                    </div><!--/.col-->
 {{--                </div><!--/.row-->--}}
 {{--            </div><!--/.contact-content-->--}}
 {{--        </div><!--/.container-->--}}
 
-{{--    </section><!--/.contact-->--}}
+    </section><!--/.contact-->
 
 </x-layout>

@@ -518,9 +518,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 .experience-time-responsive{display: none;}
-/*-------------------------------------
-        8. Profiles
---------------------------------------*/
+
 .profiles {
     padding:  50px 0 100px;
     border:  1px solid #e5ebf2;
@@ -568,8 +566,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     width:100%;
     height: 100%;
     background: #000000;
-    /*background: -moz-linear-gradient(left, #000000 0%, #000000 100%);*/
-    /*background: -webkit-linear-gradient(left, #000000 0%,#000000 100%);*/
     background: linear-gradient(to right, #000000 0%,#000000 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000', endColorstr='#000000',GradientType=1 );
     -webkit-transform:scale(0);
@@ -667,11 +663,8 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transform:scale(1);
     transform:scale(1);
     top:0;
-}/*.isotope-overlay*/
+}
 
-/*-------------------------------------
-        10. Clients
---------------------------------------*/
 .clients {padding-top: 50px;}
 .clients-area {
     display: flex;
@@ -687,9 +680,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-radius:0;
 }
 
-/*-------------------------------------
-        11. Contact
---------------------------------------*/
 .contact {
     background: #1f2c6c;
     padding: 50px 0 100px;
@@ -713,7 +703,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .contact > div > h2{
     color: #ffff;
 }
-/*--contct button--*/
 .contact-form .single-contact-btn {
     display:flex;
     align-items:center;
@@ -736,7 +725,6 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     margin-top:0px;
     outline: 0 !important;
     border:0;
-    color: #fff;
     border-radius: 0px;
     font-size:14px;
     -webkit-transition: .5s;
@@ -747,18 +735,16 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 
 }
 .single-contact-btn:hover{
-    background: #9f00ff;
-    border: 1px solid #9f00ff;
+    background: #ffffff;
+    border: 1px solid #000000;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
 }
 
-/*--contct button--*/
-
-/* contact-adress */
 .contact-add-head h3 {
     font-size:  24px;
     color:  #ffff;
 }
+
 .contact-add-head p {
     font-size:  16px;
     text-transform: capitalize;
@@ -766,9 +752,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     font-weight:  300;
     margin-top:  6px;
 }
-/* contact-adress */
 
-/*.contact-add-info */
 .contact-add-info { margin: 42px 0 52px;}
 .single-contact-add-info h3 {
     color:  #ffff;
@@ -784,10 +768,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 /*.contact-add-info */
 
-/*hm-foot-icon*/
-.hm-foot-icon {
 
-}
 .hm-foot-icon ul li{float:left;}
 .hm-foot-icon ul li>a {
     color: #ffff;
@@ -852,6 +833,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     animation-iteration-count: infinite;
     animation-duration:1s;
 }
+
 @keyframes example {
     0%   {bottom:0px;}
     100%  {bottom:7px;}
